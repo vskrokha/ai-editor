@@ -1,0 +1,32 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ai-editor",
+  "version": "1.0.0",
+  "description": "ИИ-редактор текстов на русском: пишет, редактирует, сокращает и вычитывает тексты без воды, канцелярита и ИИ-штампов.",
+  "author": {
+    "name": "Vlad Krokha",
+    "url": "https://t.me/vkremote"
+  },
+  "homepage": "https://github.com/vskrokha/ai-editor",
+  "repository": "https://github.com/vskrokha/ai-editor",
+  "license": "MIT",
+  "keywords": [
+    "editor",
+    "russian",
+    "writing",
+    "copywriting",
+    "proofreading"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "ИИ-редактор",
+        "shortDescription": "Редактор текстов на русском",
+        "longDescription": "Пишет, редактирует, сокращает и вычитывает тексты на русском: посты, статьи, письма, рассылки, лендинги, интерфейсы, пуши и заголовки. Бережёт факты и голос автора, убирает воду, канцелярит и ИИ-штампы, не манипулирует читателем.",
+        "developerName": "Vlad Krokha",
+        "category": "Productivity",
+        "capabilities": []
+      }
+    }
+  }
+}

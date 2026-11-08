@@ -1,0 +1,16 @@
+{
+  "name": "vskrokha",
+  "description": "Скиллы Влада Крохи для работы с текстами",
+  "owner": {
+    "name": "Vlad Krokha",
+    "url": "https://t.me/vkremote"
+  },
+  "plugins": [
+    {
+      "name": "ai-editor",
+      "source": "./",
+      "description": "ИИ-редактор текстов на русском",
+      "category": "productivity"
+    }
+  ]
+}
